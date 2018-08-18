@@ -77,7 +77,7 @@
             });
         }
 
-        // POST: api/Recipes
+        [Authorize]
         public async Task<IHttpActionResult> Post(RecipeCreateBindingModel recipe)
         {
             if (!this.ModelState.IsValid)
@@ -108,6 +108,7 @@
             return this.Ok();
         }
 
+        [Authorize]
         public async Task<IHttpActionResult> Put(int id)
         {
             var recipe = await this.recipeRepository.FirstOrDefaultAsync(x => x.Id == id);
