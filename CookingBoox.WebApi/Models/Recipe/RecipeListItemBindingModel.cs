@@ -16,5 +16,9 @@
         public string ImageUrl { get; set; }
 
         public int Votes { get; set; }
+
+        public decimal Servings { get; set; }
+
+        public TimeSpan AmountOfTime { get; set; }
     }
 }

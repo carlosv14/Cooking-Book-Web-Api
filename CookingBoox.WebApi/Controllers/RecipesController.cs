@@ -33,7 +33,9 @@
                     Name = x.Name,
                     ImageUrl = x.ImageUrl,
                     Votes = x.Votes,
-                    Id = x.Id
+                    Id = x.Id,
+                    AmountOfTime = x.AmountOfTime,
+                    Servings = x.Servings
                 }).Take(10);
         }
 
