@@ -382,7 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CookingBook.Database\CookingBook.Database.csproj">
-      <Project>{890199f4-9cc3-4f47-a779-9e6eb25ae4dc}</Project>
+      <Project>{890199F4-9CC3-4F47-A779-9E6EB25AE4DC}</Project>
       <Name>CookingBook.Database</Name>
     </ProjectReference>
     <ProjectReference Include="..\CookingBook.Initializers\CookingBook.Initializers.csproj">

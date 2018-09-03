@@ -91,7 +91,7 @@
             {
                 Description = recipe.Description,
                 ImageUrl = recipe.ImageUrl,
-                AmountOfTime = recipe.AmountOfTime,
+                AmountOfTime = TimeSpan.Parse(recipe.AmountOfTime),
                 Servings = recipe.Servings,
                 Name = recipe.Name,
                 Steps = recipe.Steps,

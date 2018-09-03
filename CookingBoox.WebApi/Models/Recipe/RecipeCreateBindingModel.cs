@@ -18,7 +18,7 @@
 
         public decimal Servings { get; set; }
 
-        public TimeSpan AmountOfTime { get; set; }
+        public string AmountOfTime { get; set; }
 
         public IEnumerable<RecipeIngredientBindingModel> RecipeIngredientDetails { get; set; }
 
